@@ -1,6 +1,9 @@
 # gittestlab
 # Company Project X
 
+##deployment
+This is project is deployed using CI/CD pipeline
+
 ## Description
 Production-ready sample repository following company GitHub standards.
 
