@@ -1,0 +1,26 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Lint shell scripts
+        run: |
+          for file in src/*.sh; do
+            bash -n "$file"
+          done
+
+      - name: Run health check
+        run: |
+          chmod +x src/health_check.sh
+          ./src/health_check.sh
