@@ -2,7 +2,7 @@
 # Company Project X
 
 ##deployment
-This is project is deployed using CI/CD pipeline
+Manual deployment via shell scripts.
 
 ## Description
 Production-ready sample repository following company GitHub standards.
