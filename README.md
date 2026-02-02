@@ -17,3 +17,5 @@ Production-ready sample repository following company GitHub standards.
 - main branch protected
 - feature branches only
 - PR-based changes
+
+
