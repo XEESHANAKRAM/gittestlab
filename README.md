@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # gittestlab
 # Company Project X
 
@@ -19,3 +20,6 @@ Production-ready sample repository following company GitHub standards.
 - PR-based changes
 
 
+=======
+Team project
+>>>>>>> 64249d0 (first commit)
